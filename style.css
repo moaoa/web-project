@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+
+.container {
+    width: 80%;
+    margin: auto
+}
+
+.flex {
+    display: flex
+}
+
+.ml-1{
+    margin-left: 1rem
+}
+
+.curcle{
+    border-radius: 50%
+}
+
+body {
+  background-color: #080808;
+  color: #9C9C9C;
+}
+
+section {
+    padding: 3rem
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header{
+    background-color: #1B1B1B;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 0.5rem
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+main h1 {
+    color: white;
+}
+
+main button {
+	overflow:hidden;
+	border:1px solid rgba(97.5, 185.9, 27.11, 1);
+	box-shadow:0px 8px 30px rgba(63.000000044703484, 142.00000673532486, 0, 0.5);
+	background-color:rgba(62.64500789344311, 142.37500101327896, 0, 1);
+	width:307.8928527832031px;
+	height:63px;
+    border-radius: 4px;
+}
+main button span {
+	color:rgba(255, 255, 255, 1);
+	width:164px;
+	height:21px;
+	font-size:16px;
+	letter-spacing:0;
+}
+
+#experties {
+    text-align: right
+}
+
+#experties img {
+    border-radius: 50%;
+}
+
+#skills-section {
+    background-color: white;
+    color: black
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem
+}
+
+.skills img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+@media screen and (min-width: 700px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw; 
+        margin: auto
+    }
+
+}
